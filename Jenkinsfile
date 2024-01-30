@@ -13,14 +13,14 @@ pipeline {
             }
         }
 
-        stage('Set Up Environment') {
-            steps {
-                script {
-                    sh 'chmod +x gradlew'  // Ensure the gradlew script has execute permissions
-                    sh './gradlew dependencies'  // Download dependencies
-                }
-            }
-        }
+        //stage('Set Up Environment') {
+          //  steps {
+            //    script {
+              //      sh 'chmod +x gradlew'  // Ensure the gradlew script has execute permissions
+                //    sh './gradlew dependencies'  // Download dependencies
+               // }
+           // }
+       // }
 
         stage('Build') {
             steps {
