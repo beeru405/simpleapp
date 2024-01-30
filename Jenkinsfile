@@ -41,12 +41,12 @@ pipeline {
         // Add more stages as needed, such as deploying to a test or production environment
     }
 
-    post {
-        success {
+   // post {
+     //   success {
             // Perform actions when the build is successful
-        }
-        failure {
+      //  }
+     //   failure {
             // Perform actions when the build fails
-        }
-    }
+     //   }
+//    }
 }
